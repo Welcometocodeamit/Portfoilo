@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    height: 1.5cm;
+    background-color: #dee0ec;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    justify-content: space-between;
+
+
+}
+
+#button {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#links {
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    margin-right: 1cm;
+}
+
+.links :hover {
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+
+button {
+    border: none;
+    padding: 0.49cm;
+    background-color: #dee0ec;
+    font-weight: 800;
+    font-family: 'Assistant', sans-serif;
+    font-size: 15px;
+}
+
+.icon {
+    height: 0.5cm;
+}
+
+
+li {
+    display: inline;
+    padding: 0.45cm;
+}
+
+button:hover {
+    background-color: rgb(10, 76, 94);
+    color: rgb(249, 249, 249);
+
+}
+
+
+#line {
+    font-size: 29px;
+    text-align: center;
+}
+
+#mainpage {
+    display: flex;
+    justify-content: center;
+    /* background-image: linear-gradient(to bottom, #dee0ec, rgb(255, 255, 255)); */
+    height: 17.5cm;
+}
+
+#image {
+    height: 10cm;
+    width: 10cm;
+    background-color: rgb(226, 239, 240);
+    margin-top: 4cm;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+#info {
+    height: 10cm;
+    width: 15cm;
+    background-color: #dee0ec;
+    margin-top: 4cm;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: rgb(10, 76, 94);
+    text-align: center;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+#pp {
+    height: 10cm;
+    width: 10cm;
+}
+
+#aboutme {
+    /* background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(216, 221, 223)); */
+    height: 16cm;
+    font-family: 'Assistant', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#insideaboutme {
+    background-color: #dee0ec;
+    height: 12cm;
+    width: 33.5cm;
+    display: flex;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+#skills {
+    /* background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(216, 221, 223)); */
+    height: 20cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#insideskills {
+    background-color: #dee0ec;
+    height: 12cm;
+    width: 33.5cm;
+    display: flex;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+
+}
+
+.skill-HTML {
+    height: 0.8cm;
+    width: 19cm;
+    background-color: rgb(209, 222, 234);
+    font-family: 'Assistant', sans-serif;
+    text-align: center;
+    color: #dee0ec;
+
+}
+
+
+#skill-HTML-colour {
+    height: 0.8cm;
+    width: 15.2cm;
+    background-color: rgb(10, 76, 94);
+}
+
+#skill-js-colour {
+    height: 0.8cm;
+    width: 9.5cm;
+    background-color: rgb(10, 76, 94);
+    
+}
+
+#skill-java-colour {
+    height: 0.8cm;
+    width: 5.7cm;
+    background-color: rgb(10, 76, 94);
+   
+}
+
+#skill-python-colour {
+    height: 0.8cm;
+    width: 5.7cm;
+    background-color: rgb(10, 76, 94);
+  
+}
+
+#skill-sql-colour {
+    height: 0.8cm;
+    width: 17.1cm;
+    background-color: rgb(10, 76, 94);
+   
+}
+
+#project {
+    /* background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(216, 221, 223)); */
+    height: 18cm;
+    font-family: 'Assistant', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#insideproject {
+    background-color: #dee0ec;
+    height: 12cm;
+    width: 33.5cm;
+    display: flex;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+
+    /* background-color: #f8f8f8;
+    height: 12cm;
+    width: 33.5cm;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5); */
+}
+
+#contact {
+    /* background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(216, 221, 223)); */
+    height: 16cm;
+    font-family: 'Assistant', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#insidecontact {
+    background-color: #dee0ec;
+    height: 12cm;
+    width: 33.5cm;
+    display: flex;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+#wholepage {
+    background-image: linear-gradient(to bottom right, rgb(119, 157, 168), rgb(196, 203, 214));
+}
+
+.linkcolour{
+    color: black;
+}
+
+
